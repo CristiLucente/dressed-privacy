@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Support — Dressed</title>
+<meta name="description" content="Get help with Dressed: AI Personal Stylist. Frequently asked questions, contact support, and subscription information.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,300;1,9..144,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#FAF7F2;--bg-soft:#F2EDE4;--ink:#1A1A1A;--ink-soft:#3A3A3A;--muted:#6B6258;--line:#D9D1C3;--gold:#C9A961;--gold-deep:#8B7236}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font-family:'Fraunces',Georgia,serif;font-weight:400;line-height:1.65;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+.container{max-width:760px;margin:0 auto;padding:0 28px}
+nav{display:flex;align-items:center;justify-content:space-between;padding:28px 0;border-bottom:1px solid var(--line);max-width:1200px;margin:0 auto;padding-left:28px;padding-right:28px}
+.logo{font-family:'Fraunces',serif;font-weight:500;font-size:24px;letter-spacing:-0.02em;font-style:italic;color:var(--ink);text-decoration:none}
+.logo::after{content:".";color:var(--gold);font-style:normal}
+.nav-links{display:flex;gap:32px;list-style:none}
+.nav-links a{color:var(--ink-soft);text-decoration:none;font-family:'Inter',sans-serif;font-size:13px;letter-spacing:0.04em;text-transform:uppercase}
+.nav-links a:hover{color:var(--gold-deep)}
+@media (max-width:640px){.nav-links{display:none}}
+.page-head{padding:80px 0 40px}
+.eyebrow{font-family:'Inter',sans-serif;font-size:12px;letter-spacing:0.18em;text-transform:uppercase;color:var(--muted);margin-bottom:20px}
+.eyebrow::before{content:"";display:inline-block;width:24px;height:1px;background:var(--gold);margin-right:12px;vertical-align:middle}
+h1{font-family:'Fraunces',serif;font-weight:300;font-size:clamp(42px,5.5vw,64px);letter-spacing:-0.025em;line-height:1.05}
+h1 em{font-style:italic;color:var(--gold-deep);font-weight:400}
+.lede{font-size:19px;color:var(--ink-soft);margin-top:24px;max-width:560px;font-weight:300;line-height:1.55}
+.contact-card{background:var(--bg-soft);padding:36px 32px;margin:48px 0 64px;border-left:3px solid var(--gold)}
+.contact-card h2{font-family:'Fraunces',serif;font-weight:500;font-size:22px;letter-spacing:-0.01em;margin-bottom:8px}
+.contact-card p{color:var(--ink-soft);font-size:16px;margin-bottom:18px;font-weight:300}
+.contact-row{display:flex;gap:14px;align-items:center;flex-wrap:wrap;margin-top:14px}
+.email-btn{display:inline-flex;align-items:center;gap:10px;background:var(--ink);color:var(--bg);padding:14px 22px;font-family:'Inter',sans-serif;font-size:13px;font-weight:500;letter-spacing:0.06em;text-decoration:none;transition:background .2s,transform .2s}
+.email-btn:hover{background:var(--gold-deep);transform:translateY(-1px)}
+.email-btn svg{width:14px;height:14px}
+.response-time{font-family:'Inter',sans-serif;font-size:12px;color:var(--muted);letter-spacing:0.04em}
+h2.section{font-family:'Fraunces',serif;font-weight:300;font-style:italic;font-size:34px;letter-spacing:-0.02em;margin:64px 0 32px}
+.faq-item{border-bottom:1px solid var(--line);padding:24px 0}
+.faq-item:first-of-type{border-top:1px solid var(--line)}
+.faq-q{display:flex;justify-content:space-between;align-items:center;cursor:pointer;font-family:'Fraunces',serif;font-weight:500;font-size:19px;letter-spacing:-0.01em;list-style:none;user-select:none}
+.faq-q::-webkit-details-marker{display:none}
+.faq-q::after{content:"+";font-family:'Fraunces',serif;font-weight:300;font-size:28px;color:var(--gold-deep);transition:transform .25s;flex-shrink:0;margin-left:16px}
+details[open] .faq-q::after{transform:rotate(45deg)}
+.faq-a{padding-top:14px;color:var(--ink-soft);font-size:16px;font-weight:300;line-height:1.65}
+.faq-a a{color:var(--gold-deep);text-decoration:underline;text-underline-offset:3px}
+footer{border-top:1px solid var(--line);padding:48px 0 32px;margin-top:80px}
+.foot-grid{display:flex;justify-content:space-between;align-items:flex-end;gap:32px;flex-wrap:wrap;max-width:1200px;margin:0 auto;padding:0 28px}
+.foot-links{display:flex;gap:28px;flex-wrap:wrap;list-style:none}
+.foot-links a{color:var(--ink-soft);text-decoration:none;font-family:'Inter',sans-serif;font-size:13px}
+.foot-links a:hover{color:var(--gold-deep)}
+.copy{font-family:'Inter',sans-serif;font-size:12px;color:var(--muted);letter-spacing:0.04em}
+::selection{background:var(--gold);color:var(--bg)}
+</style>
+</head>
+<body>
+<nav>
+  <a href="landing.html" class="logo"><em>Dressed</em></a>
+  <ul class="nav-links">
+    <li><a href="landing.html">Home</a></li>
+    <li><a href="index.html">Privacy</a></li>
+    <li><a href="terms.html">Terms</a></li>
+  </ul>
+</nav>
+<div class="container">
+  <header class="page-head">
+    <p class="eyebrow">Support</p>
+    <h1>How can we <em>help?</em></h1>
+    <p class="lede">We're a small team — and we read every message ourselves. Get in touch and we'll get back to you, usually within 24 hours.</p>
+  </header>
+  <div class="contact-card">
+    <h2>Email Support</h2>
+    <p>For anything you need — bug reports, feature requests, billing questions, or general feedback.</p>
+    <div class="contact-row">
+      <a href="mailto:support@dressed-app.com?subject=Dressed%20Support" class="email-btn">
+        support@dressed-app.com
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+      </a>
+      <span class="response-time">— Typical reply within 24h</span>
+    </div>
+  </div>
+  <h2 class="section">Frequently asked questions</h2>
+  <details class="faq-item"><summary class="faq-q">How do I cancel my subscription?</summary><div class="faq-a">Subscriptions are managed through your Apple ID, not within Dressed. Open <strong>Settings → [your name] → Subscriptions</strong> on your iPhone, select <em>Dressed</em>, and tap <em>Cancel Subscription</em>. Your access remains active until the end of your current billing period.</div></details>
+  <details class="faq-item"><summary class="faq-q">I was charged but premium features aren't unlocking.</summary><div class="faq-a">First, open Dressed and pull down to refresh on the Profile screen — this re-syncs your subscription status. If features still don't unlock, force-quit and reopen the app. Still nothing? Email us with your Apple ID receipt and we'll restore access manually within hours.</div></details>
+  <details class="faq-item"><summary class="faq-q">Can I get a refund?</summary><div class="faq-a">Refunds are issued by Apple, not by us. Visit <a href="https://reportaproblem.apple.com" target="_blank" rel="noopener">reportaproblem.apple.com</a>, sign in, find your Dressed purchase, and request a refund. Apple typically responds within 48 hours.</div></details>
+  <details class="faq-item"><summary class="faq-q">How do I restore my purchases on a new device?</summary><div class="faq-a">Sign in with the <em>same Apple ID</em> you used for the original purchase. In Dressed, open <strong>Profile → Restore Purchases</strong>. Your subscription will be recognized automatically.</div></details>
+  <details class="faq-item"><summary class="faq-q">How do I delete my account and data?</summary><div class="faq-a">Open Dressed, go to <strong>Profile → Settings → Delete Account</strong>. Confirm, and all your wardrobe items, photos, preferences, and account data will be permanently deleted from our servers within 30 days. This action cannot be undone.</div></details>
+  <details class="faq-item"><summary class="faq-q">Why do you ask for camera and photo library access?</summary><div class="faq-a">To photograph clothing items for your wardrobe. Photos are stored privately, associated only with your account. We never share, sell, or use them for any purpose beyond providing you outfit recommendations.</div></details>
+  <details class="faq-item"><summary class="faq-q">Is Dressed available on Android?</summary><div class="faq-a">Not yet. We're focused on making the iOS experience excellent first. If you'd like to be notified when Android arrives, email us — we keep a list.</div></details>
+  <details class="faq-item"><summary class="faq-q">Does Dressed work without an internet connection?</summary><div class="faq-a">Most features (browsing your wardrobe, viewing saved outfits) work offline. AI features — outfit generation, the Stylist chat, and inspiration — require connectivity.</div></details>
+  <details class="faq-item"><summary class="faq-q">What if I find a bug?</summary><div class="faq-a">Please tell us! Email <a href="mailto:support@dressed-app.com">support@dressed-app.com</a> with: a description of what happened, your iPhone model, your iOS version, and a screenshot if possible. The more detail, the faster we can fix it.</div></details>
+</div>
+<footer>
+  <div class="foot-grid">
+    <div><div class="logo" style="font-size:20px;margin-bottom:8px"><em>Dressed</em></div><p class="copy">AI Personal Stylist · Made independently in Romania</p></div>
+    <ul class="foot-links">
+      <li><a href="landing.html">Home</a></li>
+      <li><a href="index.html">Privacy</a></li>
+      <li><a href="terms.html">Terms</a></li>
+      <li><a href="https://apps.apple.com/app/id6761295666">App Store</a></li>
+    </ul>
+  </div>
+  <p class="copy" style="margin-top:32px;text-align:center">© 2026 Dressed. All rights reserved.</p>
+</footer>
+</body>
+</html>

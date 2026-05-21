@@ -1,61 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dressed - Terms of Use</title>
-    <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; max-width: 700px; margin: 0 auto; padding: 20px; color: #333; line-height: 1.6; }
-        h1 { color: #1a1a1a; }
-        h2 { color: #444; margin-top: 24px; }
-        p { margin: 12px 0; }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Terms of Use — Dressed</title>
+<meta name="description" content="Terms of Use for Dressed: AI Personal Stylist.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,300;1,9..144,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#FAF7F2;--bg-soft:#F2EDE4;--ink:#1A1A1A;--ink-soft:#3A3A3A;--muted:#6B6258;--line:#D9D1C3;--gold:#C9A961;--gold-deep:#8B7236}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:'Fraunces',Georgia,serif;font-weight:400;line-height:1.7;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+.container{max-width:720px;margin:0 auto;padding:0 28px}
+nav{display:flex;align-items:center;justify-content:space-between;padding:28px 0;border-bottom:1px solid var(--line);max-width:1200px;margin:0 auto;padding-left:28px;padding-right:28px}
+.logo{font-family:'Fraunces',serif;font-weight:500;font-size:24px;letter-spacing:-0.02em;font-style:italic;color:var(--ink);text-decoration:none}
+.logo::after{content:".";color:var(--gold);font-style:normal}
+.nav-links{display:flex;gap:32px;list-style:none}
+.nav-links a{color:var(--ink-soft);text-decoration:none;font-family:'Inter',sans-serif;font-size:13px;letter-spacing:0.04em;text-transform:uppercase}
+.nav-links a:hover{color:var(--gold-deep)}
+@media (max-width:640px){.nav-links{display:none}}
+.page-head{padding:72px 0 32px}
+.eyebrow{font-family:'Inter',sans-serif;font-size:12px;letter-spacing:0.18em;text-transform:uppercase;color:var(--muted);margin-bottom:20px}
+.eyebrow::before{content:"";display:inline-block;width:24px;height:1px;background:var(--gold);margin-right:12px;vertical-align:middle}
+h1{font-family:'Fraunces',serif;font-weight:300;font-size:clamp(40px,5vw,58px);letter-spacing:-0.025em;line-height:1.05}
+h1 em{font-style:italic;color:var(--gold-deep);font-weight:400}
+.updated{font-family:'Inter',sans-serif;font-size:13px;color:var(--muted);margin-top:18px;letter-spacing:0.04em}
+article{padding:32px 0 80px;counter-reset:section}
+article h2{font-family:'Fraunces',serif;font-weight:500;font-size:22px;letter-spacing:-0.01em;margin:44px 0 12px;position:relative;padding-left:32px}
+article h2::before{content:counter(section,decimal-leading-zero);counter-increment:section;position:absolute;left:0;top:5px;font-family:'Fraunces',serif;font-style:italic;font-weight:300;font-size:14px;color:var(--gold);letter-spacing:0.05em}
+article p{color:var(--ink-soft);font-size:17px;line-height:1.7;font-weight:300;margin-bottom:14px}
+article p strong{color:var(--ink);font-weight:500}
+article a{color:var(--gold-deep);text-decoration:underline;text-underline-offset:3px}
+.price-list{background:var(--bg-soft);padding:18px 22px;margin:14px 0;border-left:2px solid var(--gold);font-size:16px}
+.price-list strong{color:var(--ink);font-weight:500}
+footer{border-top:1px solid var(--line);padding:48px 0 32px;margin-top:40px}
+.foot-grid{display:flex;justify-content:space-between;align-items:flex-end;gap:32px;flex-wrap:wrap;max-width:1200px;margin:0 auto;padding:0 28px}
+.foot-links{display:flex;gap:28px;flex-wrap:wrap;list-style:none}
+.foot-links a{color:var(--ink-soft);text-decoration:none;font-family:'Inter',sans-serif;font-size:13px}
+.foot-links a:hover{color:var(--gold-deep)}
+.copy{font-family:'Inter',sans-serif;font-size:12px;color:var(--muted);letter-spacing:0.04em}
+::selection{background:var(--gold);color:var(--bg)}
+</style>
 </head>
 <body>
-    <h1>Dressed: AI Personal Stylist — Terms of Use</h1>
-    <p><strong>Last updated:</strong> May 6, 2026</p>
-
-    <h2>1. Acceptance of Terms</h2>
+<nav>
+  <a href="landing.html" class="logo"><em>Dressed</em></a>
+  <ul class="nav-links">
+    <li><a href="landing.html">Home</a></li>
+    <li><a href="support.html">Support</a></li>
+    <li><a href="index.html">Privacy</a></li>
+  </ul>
+</nav>
+<div class="container">
+  <header class="page-head">
+    <p class="eyebrow">Legal</p>
+    <h1>Terms of <em>Use</em></h1>
+    <p class="updated">Last updated: May 20, 2026</p>
+  </header>
+  <article>
+    <h2>Acceptance of Terms</h2>
     <p>By downloading, installing, or using Dressed ("the App"), you agree to be bound by these Terms of Use. If you do not agree, do not use the App.</p>
-
-    <h2>2. Description of Service</h2>
+    <h2>Description of Service</h2>
     <p>Dressed is an AI-powered personal styling application that helps users organize their wardrobe and receive outfit recommendations based on weather, occasion, and personal style preferences.</p>
-
-    <h2>3. Subscriptions</h2>
+    <h2>Subscriptions</h2>
     <p>Dressed offers auto-renewable subscription plans:</p>
-    <p><strong>Premium Weekly:</strong> $1.99/week<br>
-    <strong>Premium Monthly:</strong> $7.99/month<br>
-    <strong>Pro Annual:</strong> $49.99/year</p>
+    <div class="price-list">
+      <strong>Premium Weekly:</strong> $1.99/week<br>
+      <strong>Premium Monthly:</strong> $7.99/month<br>
+      <strong>Pro Annual:</strong> $49.99/year
+    </div>
     <p>Payment will be charged to your Apple ID account at confirmation of purchase. Subscriptions automatically renew unless canceled at least 24 hours before the end of the current period. Your account will be charged for renewal within 24 hours prior to the end of the current period. You can manage and cancel your subscriptions by going to your account settings on the App Store after purchase.</p>
-
-    <h2>4. Free Trial</h2>
+    <h2>Free Trial</h2>
     <p>If offered, any unused portion of a free trial period will be forfeited when you purchase a subscription.</p>
-
-    <h2>5. User Accounts</h2>
+    <h2>User Accounts</h2>
     <p>You may create an account to access certain features. You are responsible for maintaining the confidentiality of your account credentials. You may delete your account at any time from within the App.</p>
-
-    <h2>6. User Content</h2>
+    <h2>User Content</h2>
     <p>You retain ownership of any photos or content you upload to the App. By uploading content, you grant Dressed a limited license to process and display your content solely for the purpose of providing the service to you.</p>
-
-    <h2>7. Acceptable Use</h2>
+    <h2>Acceptable Use</h2>
     <p>You agree not to misuse the App, interfere with its operation, or use it for any unlawful purpose.</p>
-
-    <h2>8. Intellectual Property</h2>
+    <h2>Intellectual Property</h2>
     <p>The App and its original content, features, and functionality are owned by Cristian Ionita and are protected by international copyright and trademark laws.</p>
-
-    <h2>9. Disclaimer</h2>
+    <h2>Disclaimer</h2>
     <p>The App provides AI-generated fashion suggestions for informational purposes only. Outfit recommendations are not guaranteed to suit all situations. The App is provided "as is" without warranties of any kind.</p>
-
-    <h2>10. Limitation of Liability</h2>
+    <h2>Limitation of Liability</h2>
     <p>To the maximum extent permitted by law, Cristian Ionita shall not be liable for any indirect, incidental, or consequential damages arising from your use of the App.</p>
-
-    <h2>11. Changes to Terms</h2>
+    <h2>Changes to Terms</h2>
     <p>We reserve the right to modify these Terms at any time. Continued use of the App after changes constitutes acceptance of the new Terms.</p>
-
-    <h2>12. Contact</h2>
-    <p>For questions about these Terms, contact us at: cristian.ionita1981@icloud.com</p>
-
-    <h2>13. Governing Law</h2>
+    <h2>Contact</h2>
+    <p>For questions about these Terms, contact us at: <a href="mailto:support@dressed-app.com">support@dressed-app.com</a></p>
+    <h2>Governing Law</h2>
     <p>These Terms are governed by the laws of Romania.</p>
+  </article>
+</div>
+<footer>
+  <div class="foot-grid">
+    <div><div class="logo" style="font-size:20px;margin-bottom:8px"><em>Dressed</em></div><p class="copy">AI Personal Stylist · Made independently in Romania</p></div>
+    <ul class="foot-links">
+      <li><a href="landing.html">Home</a></li>
+      <li><a href="support.html">Support</a></li>
+      <li><a href="index.html">Privacy</a></li>
+      <li><a href="https://apps.apple.com/app/id6761295666">App Store</a></li>
+    </ul>
+  </div>
+  <p class="copy" style="margin-top:32px;text-align:center">© 2026 Dressed. All rights reserved.</p>
+</footer>
 </body>
 </html>

@@ -1,0 +1,27 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Backups
+*.backup
+*.backup_*
+*.bak
+
+# iOS crash logs (NEVER commit these)
+*.ips
+*.crash
+
+# Internal screenshots / dev artifacts
+iap_review*.png
+review_*.png
+test_*.png
+
+# Editor folders
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
