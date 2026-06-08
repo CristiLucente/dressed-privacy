@@ -31,6 +31,9 @@ article h2{font-family:'Fraunces',serif;font-weight:500;font-size:22px;letter-sp
 article h2::before{content:counter(section,decimal-leading-zero);counter-increment:section;position:absolute;left:0;top:4px;font-family:'Fraunces',serif;font-style:italic;font-weight:300;font-size:14px;color:var(--gold);letter-spacing:0.05em}
 article p{color:var(--ink-soft);font-size:17px;line-height:1.7;font-weight:300;margin-bottom:14px}
 article p strong{color:var(--ink);font-weight:500}
+article ul{list-style:none;margin:0 0 14px;padding-left:28px}
+article ul li{color:var(--ink-soft);font-size:17px;line-height:1.7;font-weight:300;margin-bottom:8px;position:relative;padding-left:20px}
+article ul li::before{content:"—";position:absolute;left:0;color:var(--gold);font-weight:400}
 article a{color:var(--gold-deep);text-decoration:underline;text-underline-offset:3px}
 footer{border-top:1px solid var(--line);padding:48px 0 32px;margin-top:40px}
 .foot-grid{display:flex;justify-content:space-between;align-items:flex-end;gap:32px;flex-wrap:wrap;max-width:1200px;margin:0 auto;padding:0 28px}
@@ -54,7 +57,7 @@ footer{border-top:1px solid var(--line);padding:48px 0 32px;margin-top:40px}
   <header class="page-head">
     <p class="eyebrow">Legal</p>
     <h1>Privacy <em>Policy</em></h1>
-    <p class="updated">Last updated: May 20, 2026</p>
+    <p class="updated">Last updated: June 8, 2026</p>
   </header>
   <article>
     <h2>Information We Collect</h2>
@@ -68,7 +71,20 @@ footer{border-top:1px solid var(--line);padding:48px 0 32px;margin-top:40px}
     <h2>Data Sharing</h2>
     <p>We do not sell or share your personal information with third parties for marketing purposes.</p>
     <h2>Account Deletion</h2>
-    <p>You can delete your account and all associated data at any time from the Profile section within the App.</p>
+    <p>You can delete your account and all associated data at any time, directly from the App. Go to <strong>Profile &rarr; Delete Account</strong> and follow the guided steps. To protect you from accidental loss, deletion is confirmed in three stages: a warning explaining the consequences, a subscription notice (if you have an active subscription), and a final confirmation.</p>
+    <p>When you confirm deletion, the following data is <strong>permanently and irreversibly removed</strong> from our systems:</p>
+    <ul>
+      <li>Your account and login credentials</li>
+      <li>Your wardrobe items and photos</li>
+      <li>All saved outfits</li>
+      <li>Your style preferences and body profile</li>
+      <li>Your travel plans</li>
+      <li>Your outfit feedback history</li>
+    </ul>
+    <p>Deletion takes effect immediately and your account cannot be recovered. We retain no backup copies of your personal data beyond what is required by law.</p>
+    <h2>Subscription Cancellation</h2>
+    <p><strong>Deleting your Dressed account does not automatically cancel your subscription.</strong> Subscriptions are managed by Apple through your Apple ID, not by Dressed. If you have an active Dressed Premium subscription, Apple will continue to bill you unless you cancel it separately.</p>
+    <p>To cancel, open <strong>Settings</strong> on your iPhone, tap your name, then <strong>Subscriptions</strong>, select Dressed, and cancel — or manage it at <a href="https://apps.apple.com/account/subscriptions">apps.apple.com/account/subscriptions</a>. We recommend cancelling your subscription before deleting your account.</p>
     <h2>Contact Us</h2>
     <p>Questions? Contact us at: <a href="mailto:support@dressed-app.com">support@dressed-app.com</a></p>
   </article>
